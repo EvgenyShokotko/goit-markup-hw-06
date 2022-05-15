@@ -71,7 +71,7 @@ textarea {
 	padding-bottom: 32px;
 	display: block;
 }
-.li-nav + .li-nav {
+.item-nav + .item-nav {
 	margin-left: 50px;
 }
 .header-nav {
@@ -83,7 +83,7 @@ textarea {
 
 	transition: color 250ms var(--transition-cube);
 }
-.li-adr:not(:last-child) {
+.item-adr:not(:last-child) {
 	margin-right: 50px;
 }
 .conteiner.main-nav {
@@ -115,7 +115,7 @@ textarea {
 
 /* Навигация */
 
-.li-nav .link {
+.item-nav .link {
 	position: relative;
 	display: inline-block;
 
@@ -135,7 +135,6 @@ textarea {
 .header-address .link:focus {
 	color: var(--accent-colour);
 }
-/* Изменение цвета активной страницы*/
 .link.current {
 	color: var(--accent-colour);
 }
@@ -150,7 +149,6 @@ textarea {
 	background-color: rgba(33, 150, 243, 1);
 	border-radius: 2px;
 }
-/* Стиль телефона и почты  */
 .icon-contact {
 	display: flex;
 	padding-top: 32px;
@@ -181,7 +179,6 @@ textarea {
 	background-color: var(--hero-footer-backcolor);
 
 	max-width: 1600px;
-	/* height: 600px; */
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 		url(../images/sectionphoto.jpg);
 	background-repeat: no-repeat;
@@ -223,22 +220,19 @@ textarea {
 }
 
 /* Секция наши преимущества */
-/* Выстраивание в ряд */
-.list.characters {
+.characters-list {
 	display: flex;
 }
-.li-characters:not(:last-child) {
+.item-characters:not(:last-child) {
 	margin-right: 30px;
 }
-.li-characters {
+.item-characters {
 	width: 270px;
 }
-.section.items {
+.characters-section {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
-
-/* Отступы, стили */
 .items-title {
 	margin-bottom: 10px;
 
@@ -255,31 +249,6 @@ textarea {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 }
-
-/* Иконки */
-/* Псевдоэлементы*/
-/* .li-characters::before {
-	content: "";
-	display: block;
-	height: 120px;
-	background-color: rgba(245, 244, 250, 1);
-	background-size: 70px;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.li-characters:nth-child(1)::before {
-	background-image: url(../images/description/antenna.svg);
-}
-.li-characters:nth-child(2)::before {
-	background-image: url(../images/description/vector.svg);
-}
-.li-characters:nth-child(3)::before {
-	background-image: url(../images/description/comp.svg);
-}
-.li-characters:nth-child(4)::before {
-	background-image: url(../images/description/astronaut.svg);
-} */
-/* SVG иконки */
 .decoration-bacground {
 	display: flex;
 	align-items: center;
