@@ -760,11 +760,11 @@ textarea {
 	background-color: var(--page-maintitle-color);
 	cursor: pointer;
 	}
-.close-btn svg {
+.close-svg {
 	transition: fill 250ms var(--transition-cube);
 }
-.close-btn:hover svg,
-.close-btn:focus svg {
+.close-btn:hover .close-svg,
+.close-btn:focus .close-svg {
 	fill: var(--change-color-button);
 }
 .modal-title {
