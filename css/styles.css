@@ -784,7 +784,7 @@ textarea {
 	color: var(--primary-text-colour);
 }
 .form-list {
-	margin-bottom: 30px;
+	
 	display: flex;
 	flex-direction: column;
 }
@@ -794,6 +794,16 @@ textarea {
 }
 .item-form:not(:last-child) {
 	margin-bottom: 10px;
+}
+.item-form:nth-child(4) {
+	margin-bottom: 20px;
+}
+.item-form:nth-child(5) {
+	margin-bottom: 30px;
+
+}
+.item-form.btn {
+	align-items: center;
 }
 .label-form {
 	margin-bottom: 4px;
