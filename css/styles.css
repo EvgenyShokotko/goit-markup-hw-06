@@ -622,21 +622,24 @@ textarea {
 	color: var(--accent-colour);
 }
 /* Линки в соцсетях */
+.social-block {
+	margin-right: auto;
+}
 .social-bl-title {
+	display: block;
+	margin-bottom: 20px;
+
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 700;
 	color: var(--page-maintitle-color);
 	line-height: 1.14;
-	margin: 0;
-	padding: 0;
-	margin-bottom: 20px;
 	letter-spacing: 0.03em;
 }
 /* Подписка */
 .subscribe-block {
 	align-items: baseline;
-	margin-left: 93px;
+	
 }
 .subscribe-block-title {
 	display: block;
@@ -663,6 +666,7 @@ textarea {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
 	background-color: var(--hero-footer-backcolor);
+	color: var(--page-maintitle-color);
 }
 .subscribe-form input::placeholder {
 
@@ -854,15 +858,17 @@ textarea:hover {
 }
 /* Кастомный чекбокс */
 .checkbox-block {
-	margin-bottom: 20px;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 .checkbox-label {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 20px;
 }
 .checkbox-decor {
 	width: 16px;
